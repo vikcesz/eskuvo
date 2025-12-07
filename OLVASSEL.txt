@@ -1,0 +1,62 @@
+FANNI & LEVI ESKÜVŐI WEBOLDAL - OLVASSEL.TXT
+=============================================
+
+1. KÉSZÍTŐ NEVE
+---------------
+Készítette: Tóth Máté Barnabás
+
+2. MŰKÖDŐ WEBOLDAL URL CÍME
+----------------------------
+GitHub Pages URL: https://username.github.io/eskuvo/
+(Helyettesítsd a "username"-et a saját GitHub felhasználóneveddel)
+
+
+---------------------------------------
+Ez az oldal a nővérem esküvőjére készített információs oldal, amit majd a meghívottak a meghívón levő qr kóddal tudnak felkereseni, az adatok hamisak, igazából kb minden hamis a képeken kívül
+Egyszerűen működik az oldal, gépes és tablet nézetben a fenti sávon kattintgatva lehet eligazodni, mobilon pedig legördülő listával lehet az oldalak között ugrálni, a fotóalbum pedig eléggé magától értetődően működik.
+
+
+4. SAJÁT JAVASCRIPT KÓD - HELYE ÉS MŰKÖDÉSE
+---------------------------------------------
+Fájl: others/scripts.js (az others mappában)
+
+Itt van a mobil legördülő menüjének a kódja
+Továbbá még itt van az űrlap validációja is, ami:
+ -Mielőtt az űrlap elküldésre kerülne, megvizsgálja, hogy a felhasználó helyesen töltött-e ki minden kötelező mezőt (név, email, létszám, opciók).
+ -Ha bármi hiányzik vagy hibás, megakadályozza az elküldést, és egy felugró ablakban listázza a hibákat.
+
+Itt van még az interaktív galléria kódja is ami:
+ -Automatikusan létrehozza és megjeleníti a kisképeket, amikre kattintva a kép megnyílik nagy méretben.
+ -Kezeli a képek közötti lapozást (gombokkal és billentyűzettel), valamint a nézegető bezárását.
+
+
+5. HASZNÁLT EGYEDI FONTTÍPUS ÉS HELYE
+--------------------------------------
+Google Web Fonts (Ingyenes, CDN-ből betöltve)
+   - Playfair Display (h1 elemek)
+   - Poppins (body szöveg)
+   - Betöltés: CSS-ben @import url() parancs
+   - Helye: others/des.css fájl 13. sorában
+   - URL: https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap
+
+Rendszerfont fallback
+   - MacOS: -apple-system, BlinkMacSystemFont
+   - Android: "Segoe UI", Roboto
+   - Fallback: "Helvetica Neue", Arial
+
+6. FELHASZNÁLT KÜLSŐ FORRÁSOK
+------------------------------
+Saját kód, nincs harmadik féltől származó könyvtár vagy framework!
+
+
+KÓDMINŐSÉG ÉS SZERVEZÉS
+---------------------------
+- Egyetlen CSS fájl: others/des.css 
+- Egyetlen JavaScript fájl: others/scripts.js
+- HTML fájlok: 6 oldal (index.html, szállás.html, schedule.html, gallery.html, visszajelzés.html, contact.html)
+- Képek mappája: kepek/
+- Egyéb fájlok mappája: others/
+
+
+
+
