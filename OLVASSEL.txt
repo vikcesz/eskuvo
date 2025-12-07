@@ -7,8 +7,8 @@ Készítette: Tóth Máté Barnabás
 
 2. MŰKÖDŐ WEBOLDAL URL CÍME
 ----------------------------
-GitHub Pages URL: https://username.github.io/eskuvo/
-(Helyettesítsd a "username"-et a saját GitHub felhasználóneveddel)
+GitHub Pages URL: https://vikcesz.github.io/eskuvo/
+
 
 
 ---------------------------------------
@@ -56,6 +56,7 @@ KÓDMINŐSÉG ÉS SZERVEZÉS
 - HTML fájlok: 6 oldal (index.html, szállás.html, schedule.html, gallery.html, visszajelzés.html, contact.html)
 - Képek mappája: kepek/
 - Egyéb fájlok mappája: others/
+
 
 
 
